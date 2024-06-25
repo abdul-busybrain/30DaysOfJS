@@ -46,18 +46,18 @@
  * 3 Check if a day is weekend day or a working day. Your script will take day as an input.
  */
 
-let day = prompt(`Enter a day (Monday to Sunday)`);
+// let day = prompt(`Enter a day (Monday to Sunday)`);
 
-if (
-  day === "Monday" ||
-  day === "Tuesday" ||
-  day === "Wednesday" ||
-  day === "Thursday" ||
-  day === "Friday"
-) {
-  console.log(`${day} is a working day`);
-} else if (day === "Saturday" || day === "Sunday") {
-  console.log(`${day} is a weekend`);
-} else {
-  console.log(`${day} is not a valid day of the week`);
-}
+// if (
+//   day === "Monday" ||
+//   day === "Tuesday" ||
+//   day === "Wednesday" ||
+//   day === "Thursday" ||
+//   day === "Friday"
+// ) {
+//   console.log(`${day} is a working day`);
+// } else if (day === "Saturday" || day === "Sunday") {
+//   console.log(`${day} is a weekend`);
+// } else {
+//   console.log(`${day} is not a valid day of the week`);
+// }
