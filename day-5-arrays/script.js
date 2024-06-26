@@ -143,7 +143,6 @@ numbers.splice(3, 3, 7, 8, 9);
 console.log(numbers);
 
 // push: adding item in the end. To add item to the end of an existing array we use the push method.
-
 arr = ["item1", "item2", "item3"];
 arr.push("new item");
 console.log(arr);
@@ -164,13 +163,11 @@ fruits.push("lime");
 console.log(fruits); // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 // pop: Removing item in the end.
-
 numbers = [1, 2, 3, 4, 5];
 numbers.pop(); // -> remove one item from the end
 console.log(numbers); // -> [1,2,3,4]
 
 // shift: Removing one array element in the beginning of the array.
-
 numbers = [1, 2, 3, 4, 5];
 numbers.shift(); // -> remove one item from the beginning
 console.log(numbers); // -> [2,3,4,5]
@@ -191,7 +188,6 @@ numbers.reverse();
 console.log(numbers); // [1, 2, 3, 4, 5]
 
 //sort: arrange array elements in ascending order. Sort takes a call back function, we will see how we use sort with a call back function in the coming sections.
-
 webTechs = ["HTML", "CSS", "JavaScript", "React", "Redux", "Node", "MongoDB"];
 
 webTechs.sort();
@@ -201,7 +197,6 @@ webTechs.reverse(); // after sorting we can reverse it
 console.log(webTechs); // ["Redux", "React", "Node", "MongoDB", "JavaScript", "HTML", "CSS"]
 
 // Array can store different data types including an array itself. Let us create an array of arrays
-
 let firstNums = [1, 2, 3];
 let secondNums = [1, 4, 9];
 
