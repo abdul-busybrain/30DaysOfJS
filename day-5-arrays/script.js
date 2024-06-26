@@ -113,7 +113,6 @@ numbers = [1, 2, 3, 5];
 console.log(numbers.toString());
 
 // join: It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
-
 let myNames = ["Haji", "Abdullahi", "Auwal", "Haruna"];
 console.log(myNames.join());
 console.log(myNames.join(""));
@@ -122,7 +121,6 @@ console.log(myNames.join(","));
 console.log(myNames.join(" # "));
 
 // slice: To cut out multiple items in range. It takes 2 parameters, (start and end) positions. It doent include the ending position
-
 numbers = [1, 2, 3, 6, 5, 6, 6, 4, 4533, 3454];
 console.log(numbers.slice()); // copies all items
 console.log(numbers.slice(0)); // copies all items
